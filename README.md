@@ -42,7 +42,6 @@ Text Editor
 
 Contributions, issues, and feature requests are welcome!
 
-Riya Bulia, for being a gangster
 
 
 ## Show your support
