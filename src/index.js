@@ -1,5 +1,4 @@
 import './style.css'
-// import { insertObject} from './mods/insertObj'
 import { addItems, getData } from './mods/api'
 
 const submitButton = document.querySelector('.submit-button')
@@ -16,6 +15,7 @@ submitButton.addEventListener('click', (e) => {
 })
 
 refreshButton.addEventListener('click', () => {
+  scoreList.innerHTML = ''
   insertList()
 })
 
@@ -28,11 +28,7 @@ const buildList = (data) => {
 
 const insertList = async () => {
   const getResult = await getData()
-  getResult.forEach((result) => {
-    buildList(result)
-    console.log(result)
-    console.log(buildList(result))
-  })
+  buildList(getResult)
 }
 
 window.addEventListener('load', () => {
