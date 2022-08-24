@@ -32,4 +32,6 @@ const insertList = async () => {
 }
 
 window.addEventListener('load', () => {
+  scoreList.innerHTML = ''
+  insertList()
 })
