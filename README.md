@@ -11,30 +11,44 @@
 - Webpack
 
 ## Live Demo (if available)
-
+Will be coming soon!
 
  
 
 ## Getting Started
 
-Clone the repository and open it up!
+Run the following commands to clone and run it.
 
+### To clone the repository
 
+  `git clone git@github.com:Amtresu/Leaderboard.git`
 
-To get a local copy up and running follow these simple example steps.
+### To enter Directory
+
+`cd Leaderboard`
+
+### To Install Packages
+
+`npm install`
+
+### To run project on local server
+
+`npm run server`
+
+### To open project with vs code 
+
+`code .`
 
 ### Prerequisites
-Working Computer
+Working Computer/internet connection
 ### Setup
-Simply Download
+clone with preferred git method
 ### Install
-Text Editor
+Your favorite text editor
 
 
 
-## Authors
-
-👤 **Author1**
+## Author 👤
 
 - GitHub: [@Amtresu](https://github.com/Amtresu)
 
@@ -48,9 +62,13 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
+Let me know of any bugs or issues [here](https://github.com/Amtresu/Leaderboard/issues)
+
 ## Acknowledgments
 
-Microverse
-## 📝 License
+Kyle from Web Dev Simplfied for the input box design idea!
 
-Free license 
+Microverse
+
+## 📝 License
+This project is [MIT](./LICENSE) licensed.

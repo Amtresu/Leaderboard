@@ -2,7 +2,7 @@ import './style.css'
 import { addItems, getData } from './mods/api'
 
 const submitButton = document.querySelector('.submit-button')
-const form = document.querySelector('.form-section')
+const form = document.querySelector('.form')
 const name = document.querySelector('.name-input')
 const score = document.querySelector('.score-input')
 const refreshButton = document.querySelector('.refresh-button')
@@ -21,7 +21,7 @@ refreshButton.addEventListener('click', () => {
 
 const buildList = (data) => {
   for (let i = 0; i < data.length; i++) {
-    const item = `<li>${data[i].user} : ${data[i].score}</li>`
+    const item = `<li> Name: ${data[i].user}<br> Score: ${data[i].score}</li>`
     scoreList.innerHTML += item
   }
 }
