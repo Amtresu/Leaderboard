@@ -12,11 +12,27 @@
     <h1>Leader-Board</h1>
 
     <div class="container-div">
+        <div class="input-container">
+            <h1 class="input-title">Welcome</h1>
+            <form class="form">
+                <div class="input-group">
+                    <label for="name">Insert Name</label>
+                    <input type="text" name="name" class="name-input">
+                </div>
+
+                <div class="input-group">
+                    <label for="score">Insert Score</label>
+                    <input type="text" name="score" class="score-input">
+                </div>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+
         <div class="section-header">
 
             <div class="refresh-center">
-                <h3>Recent Scores</h3>
-                <button type="button" class="refresh-button">Refresh</button>
+                <h3 class="input-title">Recent Scores</h3>
             </div>
 
             <div class="scores-section">
@@ -25,14 +41,8 @@
                 </ul>
             </div>
 
-        </div>
+            <button type="button" class="refresh-button">Refresh</button>
 
-        <div class="input-section">
-            <form class="form-section">
-                <input type="text" placeholder="Your Name" class="name-input">
-                <input type="text" placeholder="Your Score" class="score-input">
-                <button type="button" class="submit-button">Submit</button>
-            </form>
         </div>
     </div>
 </body>
