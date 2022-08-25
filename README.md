@@ -1,6 +1,8 @@
 # [Leaderboard](https://amtresu.github.io/Leaderboard/dist/)
 
 > In this project, I've built an applciation to keep track of player scores for anygame of your choice!
+> ![image](https://user-images.githubusercontent.com/101094809/186557081-ca181674-8288-4876-8106-32399fae7fac.png)
+
 
 
 ## Built With
