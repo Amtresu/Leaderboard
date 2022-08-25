@@ -192,3 +192,18 @@ input {
 li {
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 769px) {
+  .container-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .input-container,
+  .section-header {
+    width: 100%;
+  }
+}
