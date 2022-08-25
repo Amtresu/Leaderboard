@@ -9,11 +9,10 @@
 <script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
 
 <body>
-    <h1>Leader-Board</h1>
-
+    <h1 class="neon">Leader-Board</h1>
     <div class="container-div">
         <div class="input-container">
-            <h1 class="input-title">Welcome</h1>
+            <h2 class="input-title">Player 1</h2>
             <form class="form">
                 <div class="input-group">
                     <label>Name</label>
@@ -25,14 +24,14 @@
                     <input type="text" name="score" class="score-input">
                 </div>
 
-                <button type="submit" class="submit-button">Submit</button>
+                <button type="button" class="submit-button">Start</button>
             </form>
         </div>
 
         <div class="section-header">
 
             <div class="refresh-center">
-                <h3 class="input-title">Recent Scores</h3>
+                <h3 class="input-title">High Scores</h3>
             </div>
 
             <div class="scores-section">
@@ -45,6 +44,18 @@
 
         </div>
     </div>
+
+    <div class="overlay">
+        <div class="popup">
+          <h2>CRITICAL ERROR</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Please insert a name in the user field<br>
+            and a number in the score field
+          </div>
+        </div>
+      </div>
+
 </body>
 
 </html>
