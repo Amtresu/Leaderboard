@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>LeaderBoard</title>
 </head>
+
 <body>
-    <h1>Hello webpack!</h1>
+    <h1>Leader-Board</h1>
+
+    <div class="container-div">
+        <div class="input-container">
+            <h1 class="input-title">Welcome</h1>
+            <form class="form">
+                <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" name="name" class="name-input">
+                </div>
+
+                <div class="input-group">
+                    <label>Score</label>
+                    <input type="text" name="score" class="score-input">
+                </div>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+
+        <div class="section-header">
+
+            <div class="refresh-center">
+                <h3 class="input-title">Recent Scores</h3>
+            </div>
+
+            <div class="scores-section">
+                <ul class="item-list">
+
+                </ul>
+            </div>
+
+            <button type="button" class="refresh-button">Refresh</button>
+
+        </div>
+    </div>
 </body>
+
 </html>

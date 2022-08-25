@@ -1,13 +1,37 @@
-import _ from 'lodash';
-import './style.css';
+import './style.css'
+import { addItems, getData } from './mods/api'
 
-function component() {
-    const element = document.createElement('div');
-  
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-     element.classList.add('hello');
-  
-    return element;
+const submitButton = document.querySelector('.submit-button')
+const form = document.querySelector('.form')
+const name = document.querySelector('.name-input')
+const score = document.querySelector('.score-input')
+const refreshButton = document.querySelector('.refresh-button')
+const scoreList = document.querySelector('.item-list')
+
+submitButton.addEventListener('click', (e) => {
+  e.preventDefault()
+  addItems(name, score)
+  form.reset()
+})
+
+refreshButton.addEventListener('click', () => {
+  scoreList.innerHTML = ''
+  insertList()
+})
+
+const buildList = (data) => {
+  for (let i = 0; i < data.length; i++) {
+    const item = `<li> Name: ${data[i].user}<br> Score: ${data[i].score}</li>`
+    scoreList.innerHTML += item
   }
-  
-  document.body.appendChild(component());
+}
+
+const insertList = async () => {
+  const getResult = await getData()
+  buildList(getResult)
+}
+
+window.addEventListener('load', () => {
+  scoreList.innerHTML = ''
+  insertList()
+})
