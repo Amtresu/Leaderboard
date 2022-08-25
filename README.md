@@ -1,4 +1,4 @@
-# Leaderboard
+# [Leaderboard](https://amtresu.github.io/Leaderboard/dist/)
 
 > In this project, I've built an applciation to keep track of player scores for anygame of your choice!
 
@@ -11,7 +11,7 @@
 - Webpack
 
 ## Live Demo (if available)
-Will be coming soon!
+https://amtresu.github.io/Leaderboard/dist/
 
  
 
