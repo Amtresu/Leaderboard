@@ -40,11 +40,11 @@ Run the following commands to clone and run it.
 `code .`
 
 ### Prerequisites
-Working Computer
+Working Computer/internet connection
 ### Setup
-Simply Download
+clone with preferred git method
 ### Install
-Text Editor
+Your favorite text editor
 
 
 
