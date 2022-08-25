@@ -196,6 +196,7 @@ li {
   margin-bottom: 10px;
 }
 
+
 .score-span {
   color: #ffd300;
 }
@@ -272,10 +273,9 @@ li {
   color: #000;
 }
 
+
+
 @media only screen and (max-width: 769px) {
-  body {
-    overflow-y: auto;
-  }
 
   .container-div {
     display: flex;
